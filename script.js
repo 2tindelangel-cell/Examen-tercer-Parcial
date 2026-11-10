@@ -12,6 +12,8 @@
         'bowser':  'imagenes/bowser.jpg',
         'toad':  'imagenes/toad.jpg',
         'peach':  'imagenes/peach.jpg',
+        'Yoshi':  'imagenes/Yoshi.jpg',
+        'Luigi':  'imagenes/Luigi.jpg',
     };
 
     function updateInterface() {
@@ -20,7 +22,7 @@
         const newImgSrc = characterImages[selectedId];
 
         // Efecto visual simple al cambiar (opacidad)
-        characterImage.style.opacity = 0;
+        characterImage.style.opacity = 0.3;
         
         // Pequeño delay para que la opacidad llegue a 0 antes de cambiar la fuente
         setTimeout(() => {

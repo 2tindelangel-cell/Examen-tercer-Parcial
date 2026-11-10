@@ -153,6 +153,12 @@
             width: 0%;
             transition: width 0.4s ease-out;
         }
+        .radio-group{
+            display:table-column 2fr 2fr ;
+        }
+        .checkbox-group{
+            display:table-column 2fr 2fr ;
+        }
 
         /* Responsive simple */
         @media (max-width: 700px) {
